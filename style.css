@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+
+title {
+    font-family: zhi-mang-xing, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+@media only screen and (max-width: 800px) {
+    .flex-row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+@media (min-width: 600px) {
+    .flex-row { grid-template-columns: repeat(2, 1fr); }
+}
+#main{
+    display: flex;
+    height: 100vh;
+
+}
+#left-screen {
+    display: flex;
+    width : 40%;
+    height: 100%;
+    align-content:flex-end;
+    background-color: aquamarine;
+}
+#attention {
+    
+    background-color: azure;
+    height: 60%;
+    width: 100%
+}
+#right-screen {
+    width: 60%;
+    height: 100%;
+}
+.menu {
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.btn-outline-dark { 
+    text-align: center; 
+    vertical-align: middle;
+}
+.nav-item{
+    font-family:'Zhi Mang Xing', cursive;
+    font-size: 2.3rem;
+}

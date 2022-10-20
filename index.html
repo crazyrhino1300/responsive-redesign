@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">     
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light" style ="height: 4rem;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src = "Logo.png" alt= "logo" style = "width: 4rem;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item" style = "padding-right: 5rem">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item" style = "padding-right: 5rem">
+              <a class="nav-link active" aria-current="page" href="#">Hours</a>
+            </li>
+            <li class="nav-item" style = "padding-right: 7rem">
+              <a class="nav-link active" aria-current="page" href="#" >Location</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class = "d-flex " style = "height: 100vh;  flex-wrap:wrap-reverse;">
+      <div class = "d-flex col-lg-5 col-sm-12"style = "background-color: white; flex-flow: column; align-content: flex-end; justify-content: flex-end">
+        <div style = "display: flex; align-self: center; justify-self: center;  width: 90%; height: 20%; padding-bottom: 10px;">
+          <div class="alert alert-danger" role="alert" style = "display: flex; align-self: center; justify-self: center;  width: 90%; 
+          font-size: 0.9rem;">
+            Due to COVID-19, we are working with a reduced number of staff. Orders
+            will take approximately 30-45 minutes to prepare. Thank you for your patientce.
+            <br><br>
+            Hours for February 14, 2022: 11AM - 10PM
+          </div>
+        </div>
+        <div class = "d-flex justify-self-end align-content-end" style = "padding-top: 3.6rem; flex-direction: column; height: 67%; width:100%;">
+          <img class = "align-self-center justify-self-flex-end"src = "Logo.png" alt = "logo again" style = "width: 50%;"> 
+          <h1 class = "align-self-center" style = "font-size: 50px;">China Taste</h1>
+          <div class = "d-flex justify-content-around" style = "vertical-align: middle;  width: 100%; height: 35px;">
+            <button type="button" class="btn btn-outline-dark" style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-left: 10%;">Order</button>
+            <button type="button" class="btn btn-outline-dark" style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-right: 10%;">Menu</button>
+          </div>
+        </div>
+        </div>
+
+      <div class = "col-lg-7 col-sm-12" >
+        <div class = "pic">
+          <img src="https://www.allrecipes.com/thmb/vAH7uHzsrqqviFWdWfmuPjqLP7o=/2000x2000/filters:no_upscale()/14704-BestEggRolls-mfs-1x1-0321-d047a0ca646f43d99772b1dd4a57f885.jpg" 
+           alt="lo mein pic" style = "padding-top: 60px;width: 100%; height: 100%; object-fit: scale-down;"
+          >
+        </div>
+        
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style = "height:100vh; position: absolute;">
+          <div class="carousel-inner" style = "background-color: aqua;">
+            <div class="carousel-item active" style = "width: 100%;height: 46rem">
+              <img src="https://www.thecountrycook.net/wp-content/uploads/2021/07/thumbnail-Air-Fryer-Orange-Chicken-recipe-scaled.jpg" class="d-block w-100 h-100" alt="orange chicken"
+              style = "width: 100%; object-fit: cover;">
+              Image taken from https://www.thecountrycook.net/air-fryer-orange-chicken/
+            </div>
+            <div class="carousel-item" style = "width: 100%;height: 46rem">
+              <img src="https://www.allrecipes.com/thmb/vAH7uHzsrqqviFWdWfmuPjqLP7o=/2000x2000/filters:no_upscale()/14704-BestEggRolls-mfs-1x1-0321-d047a0ca646f43d99772b1dd4a57f885.jpg" class="d-block w-100 h-100" alt="lo mein pic">
+               Image taken from allrecipes
+            </div>
+            <div class="carousel-item" style = "width: 100%;height: 46rem">
+              <img src="https://recipetineats.com/wp-content/uploads/2019/11/Lo-Mein_5.jpg" alt = "lomein picture" style = "object-fit:cover;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> -->
+      </div>
+    </div>
+    <div style = "display: flex;background-color: grey; height: 33vh">
+      <div class = "justify-self-end">
+
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
