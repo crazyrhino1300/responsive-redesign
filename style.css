@@ -56,3 +56,30 @@ title {
 .break{
     background-image: url("https://www.kitchensanctuary.com/wp-content/uploads/2014/06/Quick-Orange-Chicken-Recipe-tall-FS.jpg");
 }
+
+@media (max-width: 991px){
+    .nav-item{
+        text-align: end;
+        padding-right:0;
+    }
+    .main-food{
+        height:auto;
+    }
+
+}
+@media (min-width:991px) {
+    .nav-item {
+        padding-right: 5rem;
+    }
+    .nav-item.last{
+        padding-right: 7rem;
+    }
+    .main-food{
+        height:100vh;
+    }
+
+}
+.navbar-collapse.collapse.show{
+    display:flex;
+    justify-content: end;
+}
