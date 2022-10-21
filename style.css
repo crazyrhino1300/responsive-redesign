@@ -46,7 +46,13 @@ title {
     text-align: center; 
     vertical-align: middle;
 }
-.nav-item{
-    font-family:'Zhi Mang Xing', cursive;
-    font-size: 2.3rem;
+
+.btn-dark{
+    width: 130px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+.break{
+    background-image: url("https://www.kitchensanctuary.com/wp-content/uploads/2014/06/Quick-Orange-Chicken-Recipe-tall-FS.jpg");
 }

@@ -11,53 +11,58 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">     
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-light" style ="height: 4rem;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src = "Logo.png" alt= "logo" style = "width: 4rem;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light" style ="height:60px; padding:0;">
+      <div class="container-fluid" style = "padding-top: 0;">
+        <a class="navbar-brand" href="#" style = "font-family: Zhi Mang Xing"><img src = "Logo.png" alt= "logo" style = "width: 4rem;">China Taste</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" 
+        > 
+        <span class="navbar-toggler-icon ms-auto"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item" style = "padding-right: 5rem">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <button type="button" class="btn btn-dark" style = "font-size: 30px;font-family:Zhi Mang Xing;">About</button>
+              <!--<a class="nav-link active" aria-current="page" href="#">About</a>-->
             </li>
             <li class="nav-item" style = "padding-right: 5rem">
-              <a class="nav-link active" aria-current="page" href="#">Hours</a>
+              <button type="button" class="btn btn-dark"style = "font-size: 30px;font-family:Zhi Mang Xing;">Hours</button>
+             
             </li>
             <li class="nav-item" style = "padding-right: 7rem">
-              <a class="nav-link active" aria-current="page" href="#" >Location</a>
+              <button type="button" class="btn btn-dark"style = "font-size: 30px;font-family:Zhi Mang Xing;">Reviews</button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class = "d-flex " style = "height: 100vh;  flex-wrap:wrap-reverse;">
+    <div class = "d-flex " style = "padding:0; padding-bottom: 20px;height: 100vh;  flex-wrap:wrap-reverse;">
       <div class = "d-flex col-lg-5 col-sm-12"style = "background-color: white; flex-flow: column; align-content: flex-end; justify-content: flex-end">
-        <div style = "display: flex; align-self: center; justify-self: center;  width: 90%; height: 20%; padding-bottom: 10px;">
-          <div class="alert alert-danger" role="alert" style = "display: flex; align-self: center; justify-self: center;  width: 90%; 
-          font-size: 0.9rem;">
+        <div style = "display: flex; margin:auto;  padding-top:15px;width: 90%; height: 70%; ">
+          <div class="alert alert-danger" role="alert" style = "display: flex; margin:auto;  width: 90%; 
+          font-size: 15px;">
             Due to COVID-19, we are working with a reduced number of staff. Orders
             will take approximately 30-45 minutes to prepare. Thank you for your patientce.
             <br><br>
             Hours for February 14, 2022: 11AM - 10PM
           </div>
         </div>
-        <div class = "d-flex justify-self-end align-content-end" style = "padding-top: 3.6rem; flex-direction: column; height: 67%; width:100%;">
-          <img class = "align-self-center justify-self-flex-end"src = "Logo.png" alt = "logo again" style = "width: 50%;"> 
-          <h1 class = "align-self-center" style = "font-size: 50px;">China Taste</h1>
+        <div class = "d-flex justify-self-end align-content-end" style = " padding-top: 15px; padding-bottom: 15px;flex-direction: column; height: 100%; width:100%;">
+          <img class = "align-self-center justify-self-flex-end"src = "Logo.png" alt = "logo again" style = "width: 40%; height: auto; object-fit: cover;" > 
+          <h1 class = "align-self-center" style = "font-size: 3rem;">China Taste</h1>
           <div class = "d-flex justify-content-around" style = "vertical-align: middle;  width: 100%; height: 35px;">
-            <button type="button" class="btn btn-outline-dark" style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-left: 10%;">Order</button>
-            <button type="button" class="btn btn-outline-dark" style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-right: 10%;">Menu</button>
+            <a type = "button" class="btn btn-dark" href="#break" role="button"style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-left: 10%;">Order</a>
+            <button type="button"  class="btn btn-dark" style = "font-family: Zhi Mang Xing; font-size: 40px; height: 55px; width: 150px; margin-right: 10%;">Menu</button>
+            
           </div>
         </div>
         </div>
 
-      <div class = "col-lg-7 col-sm-12" >
-        <div class = "pic">
+      <div class = "col-lg-7 col-sm-12 d-flex" style = "flex-flow: column" >
+        <div class = "pic" style = "justify-self:start; margin: auto;">
           <img src="https://www.allrecipes.com/thmb/vAH7uHzsrqqviFWdWfmuPjqLP7o=/2000x2000/filters:no_upscale()/14704-BestEggRolls-mfs-1x1-0321-d047a0ca646f43d99772b1dd4a57f885.jpg" 
-           alt="lo mein pic" style = "padding-top: 60px;width: 100%; height: 100%; object-fit: scale-down;"
+           alt="lo mein pic" style = "padding:0; width: 100vw; height:100vh; object-fit: cover;"
           >
+          <!--Photo from AllRecipes: Angela Hamilton Best Egg Rolls-->
         </div>
         
         <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style = "height:100vh; position: absolute;">
@@ -86,12 +91,322 @@
         </div> -->
       </div>
     </div>
-    <div style = "display: flex;background-color: grey; height: 33vh">
-      <div class = "justify-self-end">
+    <div style = "display: flex; flex-flow: column; background-color:white; height: 30vh; text-align: center; justify-content:center;
+    outline: auto;">
+      <h2 style = "font-family: Zhi Mang Xing">Address</h2>
+      <p style = "font-family: Zhi Mang Xing">
+        10030 Baltimore National Pike <br>
+        Ellicott City, Maryland 21042 <br>
+      </p>
 
-      </div>
+      <h2 style = "font-family: Zhi Mang Xing">Phone</h2>
+      <p style = "font-family: Zhi Mang Xing">(410) 465-2800</p>
+
+
+
+    </div>
+    <div style = "display: flex;background-color: grey; height: 40vh">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1565.701871099634!2d-76.85703570302198!3d39.28160641490492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c821b3eebef387%3A0xffbad2177e0cbfac!2sChina%20Taste!5e0!3m2!1sen!2sus!4v1666292082619!5m2!1sen!2sus" width="100%;" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
+    
+    <a id = "break">
+      <div class = "break" style = "display: flex; justify-content: center; align-items: center; width: 100vw; height: 40vh; background-color: black; padding-top: 0; opacity: 75%;">
+        <h1 style = "font-size:15vh; font-family: Zhi Mang Xing; color: white;">Ordering</h1>
+      </div>
+    </a>
+      <!--https://www.kitchensanctuary.com/orange-chicken/: kitchen sanctuary: nicky: orange chicken recipe-->
+
+    <div class = "d-flex" style = "height: 40vh; flex-wrap: wrap; ">
+      <div class = "d-flex col-lg-8 col-sm-12"style = " align-content: flex-start; justify-content: flex; ">
+        <div class="accordion accordion-flush" id="accordionFlushExample" style= "width: 100%">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Appetizers
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style = "display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.skinnytaste.com/wp-content/uploads/2021/06/Air-Fryer-Shrimp-Egg-Rolls-9.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from skinnytaste Shrimp Egg Rolls (Air Fryer or Baked)-->
+                  <div class="card-body">
+                    <h5 class="card-title">Shrimp Egg Roll: $5.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-01-Spring-Rolls%2FVegetarian_Spring_Rolls-2"
+                  class="card-img-top" alt="veggie spring roll" style = "height: 50%; object-fit: cover;">
+                  <!--Photo from kitchn: Kristina Cho: Fried Vegetable Spring Rolls-->
+                  <div class="card-body">
+                    <h5 class="card-title">Veggie Spring Roll: $4.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.allrecipes.com/thmb/vAH7uHzsrqqviFWdWfmuPjqLP7o=/2000x2000/filters:no_upscale()/14704-BestEggRolls-mfs-1x1-0321-d047a0ca646f43d99772b1dd4a57f885.jpg"  class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+
+                  <!--Photo from AllRecipes: Angela Hamilton Best Egg Rolls-->
+                  <div class="card-body">
+                    <h5 class="card-title">Egg Roll: $6.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.skinnytaste.com/wp-content/uploads/2021/06/Air-Fryer-Shrimp-Egg-Rolls-9.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from skinnytaste Shrimp Egg Rolls (Air Fryer or Baked)-->
+                  <div class="card-body">
+                    <h5 class="card-title">[further items in appetizers]</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Fried Rice
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style = "display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.budgetbytes.com/wp-content/uploads/2022/03/Vegetable-Fried-Rice-plate.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from budgetbytes: Beth: Vegetable Fried Rice-->
+                  <div class="card-body">
+                    <h5 class="card-title">Veggie Fried Rice: $9.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://redhousespice.com/wp-content/uploads/2022/03/pork-fried-rice-in-a-wok-scaled.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from Red House Spice: Wei Guo: Pork Fried Rice-->
+                  <div class="card-body">
+                    <h5 class="card-title">Roast Pork Fried Rice: $12.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.averiecooks.com/wp-content/uploads/2016/02/chickenfriedrice-12.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Averie Cooks: Averie Sunshine "Esy Better-than-takeout chicken fried rice"-->
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Fried Rice: $12.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.skinnytaste.com/wp-content/uploads/2021/06/Air-Fryer-Shrimp-Egg-Rolls-9.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from skinnytaste Shrimp Egg Rolls (Air Fryer or Baked)-->
+                  <div class="card-body">
+                    <h5 class="card-title">[add more items]</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree" >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+              >
+                Lo Mein
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style = "display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.momsdish.com/wp-content/uploads/2020/04/Veggie-Lo-Mein-Under-30-Minutes-06-600x900.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from Momsdish: Veggie Lo Mein + Video-->
+                  <div class="card-body">
+                    <h5 class="card-title">Vegetable Lo Mein: $12.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.allrecipes.com/thmb/cKhS0w3-VeeJi4YxadSfs6TY7P0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1049364-dab735471f0245f9a54958063655c22a.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from allrecipes: Kendra: Pork Lo Mein-->
+                  <div class="card-body">
+                    <h5 class="card-title">Pork Lo Mein: $15.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://dinnerthendessert.com/wp-content/uploads/2018/03/Chicken-Lo-Mein-3.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from Dinner then Dessert: Sabrina Snyder: Chicken Lo Mein-->
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Lo Mein: $16.00</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.budgetbytes.com/wp-content/uploads/2022/03/Vegetable-Fried-Rice-plate.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from budgetbytes: Beth: Vegetable Fried Rice-->
+                  <div class="card-body">
+                    <h5 class="card-title">[add more items]</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour" >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"
+              >
+                [Add more Categories]
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body" style = "display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.momsdish.com/wp-content/uploads/2020/04/Veggie-Lo-Mein-Under-30-Minutes-06-600x900.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from Momsdish: Veggie Lo Mein + Video-->
+                  <div class="card-body">
+                    <h5 class="card-title">Vegetable Lo Mein</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.allrecipes.com/thmb/cKhS0w3-VeeJi4YxadSfs6TY7P0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1049364-dab735471f0245f9a54958063655c22a.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from allrecipes: Kendra: Pork Lo Mein-->
+                  <div class="card-body">
+                    <h5 class="card-title">Pork Lo Mein</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://dinnerthendessert.com/wp-content/uploads/2018/03/Chicken-Lo-Mein-3.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from Dinner then Dessert: Sabrina Snyder: Chicken Lo Mein-->
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Lo Mein</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.budgetbytes.com/wp-content/uploads/2022/03/Vegetable-Fried-Rice-plate.jpg" class="card-img-top" alt="shrimp egg roll picture"
+                  style = "height: 50%; object-fit: cover;">
+                  <!--Photo from budgetbytes: Beth: Vegetable Fried Rice-->
+                  <div class="card-body">
+                    <h5 class="card-title">[add more items]</h5>
+                    <p class="card-text">Currently in cart: 0</p>
+                    <a class="btn btn-primary"> + 1</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Accordion Item #5
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the fifth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #6
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the sixth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #7
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the seventh item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #8
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the eighth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #9
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class = "d-flex col-lg-4 col-sm-12"style = "background-color: white; flex-flow: row; align-content: flex-start; justify-content: center; ">
+        <div class="card" style="width: 80%">
+          <h2 style = "text-align: center;">Shopping Cart </h2>
+          <ul class="list-group list-group-flush">
+
+            <li class="list-group-item">
+                Veggie Lo Mein(x2): $24.00
+            </li>
+            <li class="list-group-item">Egg Rolls(x3): $18.00</li>
+            <li class="list-group-item">Chicken Fried rice(x2): $24.00</li>
+          </ul>
+          <br>
+          <h2 style = "text-align:center;">Total amount: $66.00 </h2>
+          <button type="button" class="btn btn-success">Check-out!</button>
+        </div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
